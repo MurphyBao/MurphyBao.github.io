@@ -1,0 +1,19 @@
+
+        body{
+            background-color: rgb(23, 23, 165);
+            font-family: fantasy;
+        }
+
+.main-header{
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+.my-name{
+    font-style: italic;
+}
+
+.foot{
+    text-align: right;
+    font-style: italic;
+}
