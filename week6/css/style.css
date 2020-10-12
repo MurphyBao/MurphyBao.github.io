@@ -201,3 +201,84 @@
 
 }
 
+.sq11{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 1580px;
+    right: 400px;
+    z-index: 2;
+}
+
+.marquee {
+    position: relative;
+    top: 1000px;
+    z-index: 3;
+}
+
+.marquee2 {
+    position: relative;
+    top: 1200px;
+    z-index: 3;
+}
+
+.marquee3 {
+
+        position: relative;
+        top: 1000px;
+        z-index: 3;
+        left: 70em;
+
+}
+
+.marquee4 {
+
+    position: relative;
+    top: 500px;
+    z-index: 3;
+    left: 20em;
+
+}
+.marquee5 {
+
+    position: relative;
+    top: 450px;
+    z-index: 3;
+    left: 40em;
+
+}
+
+.marquee6 {
+
+    position: relative;
+    top: 550px;
+    z-index: 3;
+    left: 60em;
+
+}
+.marquee7 {
+
+    position: relative;
+    top: 200px;
+    z-index: 3;
+    left: 80em;
+
+}
+
+.marquee8 {
+
+    position: relative;
+    top: 300px;
+    z-index: 3;
+    left: 20em;
+
+}
+
+.marquee10 {
+
+    position: absolute;
+    top: 100px;
+    z-index: 3;
+    left: 20em;
+
+}
