@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+}
+
+#pic {
+    width: 1680px;
+    height: 1024px;
+    background-color: grey;
+    position: absolute;
+}
+
+.name {
+    width: 337px;
+    height: 140px;
+    background-color: black;
+    position: absolute;
+    top:40%;
+    left:40%;
+}
+
+#menu {
+    position: fixed;
+    width: 25px;
+    height: 30px;
+    background-color: thistle;
+    right: 95px;
+    top: 15px;
+}
+
+.sq1 {
+    height: 48px;
+    width: 48px;
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    list-style: none;
+    background-color: thistle;
+    
+}
+.sq2 {
+    height: 48px;
+    width: 48px;
+    position:absolute;
+    top: 100%;
+    left: 30%;
+    list-style: none;
+    background-color: thistle;
+    
+}
+
+.sq3 {
+    height: 48px;
+    width: 48px;
+    position:absolute;
+    top: 100%;
+    left: 55%;
+    list-style: none;
+    background-color: thistle;
+    
+}
+
+.sq4 {
+    height: 48px;
+    width: 48px;
+    position:absolute;
+    top: 100%;
+    left: 80%;
+    list-style: none;
+    background-color: thistle;
+    
+}
+
+.dates {
+    width: 427px;
+    height: 525px;
+    background-color: thistle;
+    top: 700px;
+    position: fixed;
+}
