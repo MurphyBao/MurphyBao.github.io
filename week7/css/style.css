@@ -352,3 +352,271 @@ main {
     top: 1150px;
     left: 550px;
 }
+
+/* Tablet */
+@media (max-width:1680px) {
+    body{
+        
+    }
+}
+/* Mobile */
+@media (max-width: 812px) {
+    .dates {
+       width: 100px;
+       height: 1000px;
+    }
+
+    #menu {
+        /* right: 50px; */
+        width: 25px;
+        height: 30px;
+        left: 340px;
+        position: fixed;
+    }
+
+    .name {
+        width: 168.5px;
+        height: 70px;
+        left: 30%;
+    }
+
+    #media {
+        display: none;
+    }
+
+    #pic {
+        width: 380px;
+        height: 812px;
+    }
+
+    .b1 {
+        height: 150px;
+        width: 162.5px;
+        right: 0px;
+        top: 1100px;
+    }
+    .t1 {
+        display:none;
+    }
+
+    .b2 {
+        height: 132.5px;
+        width: 225px;
+        background-color: pink;
+        right: 0;
+        position: absolute;
+        top: 1300px;
+    }
+    .t2 {
+        display: none;
+    }
+
+    .b3 {
+        height: 132.5px;
+        width: 200px;
+        background-color: pink;
+        right: 0;
+        position: absolute;
+        top: 1500px;
+    }
+
+    .t3 {
+        display: none;
+    }
+
+    .b4 {
+        height: 111.25px;
+        width: 225px;
+        background-color: pink;
+        right: 0;
+        position: absolute;
+        top: 1700px;
+    }
+
+    .t4 {
+        display: none;
+
+    }
+
+    .b5 {
+        width: 212.5px;
+        height: 132.5px;
+        background-color: pink;
+        right: 0px;
+        position: absolute;
+        top: 1880px;
+    }
+    .t5 {
+        display: none;
+    }
+
+    .sep {
+        width: 217.5px;
+        height: 21px;
+        background-color: greenyellow;
+        position: absolute;
+        right: 0;
+        top: 2050px;
+    }   
+
+    #text {
+        font-size: smaller;
+        
+    }
+
+    .mail {
+        position: relative;
+        top: 100px;
+        left: 5px;
+    }
+
+    .sub {
+        position: relative;
+        left: 5px;
+        top: 100px;
+    }
+
+    .terms {
+        position: relative;
+        left: 5px;
+        top: 140px;
+    }
+
+    .follow {
+        height: 15px;
+        width: 300px;
+        background-color: grey;
+        left: 75px;
+        position: relative;
+        top: 150px;
+    }
+
+    .follow2 {
+        height: 30px;
+        width: 200px;
+        background-color: grey;
+        left: 35px;
+        position: absolute;
+        top: 2400px;
+    }
+
+    .yoshi2 {
+        height: 30px;
+        width: 100px;
+        background-color: black;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .disco {
+        position: absolute;
+        left: 20px;
+        top: 80px;
+        background-color: grey;
+        height: 75px;
+        width: 200px;
+    }
+
+    .album1 {
+        height: 300px;
+        width: 300px;
+        background-color: crimson;
+        position: absolute;
+        left: 35px;
+        top: 300px;
+    }
+
+    .album2 {
+        height: 300px;
+        width: 300px;
+        background-color: grey;
+        position: absolute;
+        left: 35px;
+        top: 700px;
+    }
+
+    .album3 {
+        height: 300px;
+        width: 300px;
+        background-color: yellow;
+        position: absolute;
+        left: 35px;
+        top: 1100px;
+    }
+
+    .album4 {
+        height: 300px;
+        width: 300px;
+        background-color: blue;
+        position: absolute;
+        left: 35px;
+        top: 1500px;
+    }
+
+    .album5 {
+        height: 300px;
+        width: 300px;
+        background-color: blueviolet;
+        position: absolute;
+        left: 35px;
+        top: 1900px;
+    }
+
+    .menu2 {
+        position: fixed;
+        width: 25px;
+        height: 30px;
+        background-color: thistle;
+        top: 15px;
+        z-index: 2;
+        left: 340px;
+    }
+
+    .sep2 {
+        width: 300px;
+        height: 42px;
+        background-color: greenyellow;
+        position: absolute;
+        /* right: 90px; */
+        top: 2300px;
+        left: 35px;
+    }
+
+    
+
+    main {
+        position: absolute;
+        z-index: 2;
+    }
+
+    .page2 {
+        width: 50px;
+        height: 35px;
+        background-color: black;
+        position: absolute;
+        top: 2210px;
+        left: 35px;
+    }
+
+    .mail2 {
+        position: absolute;
+        top: 2500px;
+        left: 10px;
+    }
+
+    .sub2 {
+        position: absolute;
+        left: 10px;
+        top: 2520px;
+    }
+
+    .terms2 {
+        position: absolute;
+        left: 10px;
+        top: 2540px;
+        font-size: smaller;
+    }
+
+
+}
