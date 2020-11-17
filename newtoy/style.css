@@ -1,0 +1,55 @@
+html{
+    background-color:darkslategray;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: darkseagreen;
+    position: relative;
+    left: 0px;
+    cursor: url('./images/cursor的副本.png'),auto;
+}
+
+
+
+table{
+    position: absolute;
+    top: 100px;
+    left: 180px;
+    width: 80%;
+    height: 60%;
+ }
+
+ td{
+    width: 400px;
+    height: 180px;
+    background: url(./images/hole的副本.png) no-repeat bottom;
+    text-align: center;
+   
+    
+}
+
+img {
+    width: 20%;
+    height: auto;
+}
+
+
+ 
+
+button {
+    width: 800px;
+    height: 60px;
+    position: absolute;
+    top: 425px;
+    left: 450px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    z-index: 2;
+    font-size: 60pt;
+}
+
+
