@@ -25,4 +25,16 @@
 }
 
 
+@media (max-width: 375px) {
+    .loader {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        position: relative;
+        top: 20px;
+        z-index: 2;
+    }
 
+}
+   

@@ -30,5 +30,26 @@ main{
     left: 0px;
   }
   
+/* Tablet */
+@media (max-width:1680px) {
+    body{
+        
+    }
+}
+/* Mobile */ 
+@media (max-width: 375px) {
+  .title {
+    top: 70px;
+    position: absolute;
+    left: 80px;
+    width: 90px;
+    height: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+    main{
+        font-size: 10px;
+    }
 
+}
 

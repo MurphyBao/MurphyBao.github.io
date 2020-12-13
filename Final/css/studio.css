@@ -289,3 +289,165 @@ img{
   top: 45px;
   left: 0px;
 }
+
+/* Mobile */
+@media (max-width: 375px) {
+.title {
+  top: 70px;
+  position: absolute;
+  left: 80px;
+  width: 900px;
+  height: auto;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+}
+
+img{
+  width: 250px;
+  height: 250px;
+}
+.cube  {
+  width:250px;
+  height:250px;
+  transform-style: preserve-3d;
+  animation: rotate-cube 20s ease-in-out infinite;
+}
+
+.cube > div {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+  opacity: 1;
+  position: absolute;
+}
+
+/* 前 */
+.cube .img1 {
+  
+  transform: rotateY(0deg) translateZ(270px);
+}
+
+/* 右 */
+.cube .img2 {
+ 
+  transform: rotateY(90deg) translateZ(270px);
+}
+
+/* 左 */
+.cube .img3 {
+  
+  transform: rotateY(-90deg) translateZ(270px);
+}
+
+/* 下 */
+.cube .img4 {
+  
+  transform: rotateX(90deg) translateZ(270px);
+}
+
+/* 上 */
+.cube .img5 {
+  
+  transform: rotateX(-90deg) translateZ(270px);
+}
+
+/* 后 */
+.cube .img6 {
+  
+  transform: rotateY(180deg) translateZ(270px);
+}
+
+@keyframes rotate-cube {
+  0%{
+      transform: rotateX(0deg)  rotateY(0deg);
+  }
+
+  20%{
+      transform: rotateY(-90deg);
+  }
+
+  40%{
+      transform: rotateX(-90deg);
+
+  }
+
+  60% {
+      transform: rotateY(90deg);
+  }
+
+  80%{
+      transform: rotateX(90deg);
+  }
+
+  100% {
+      transform: rotateX(0deg) rotateY(0deg);
+  }
+}
+
+.next {
+  position: absolute;
+  height: 80px;
+  width: auto;
+  top: 720px;
+  right: 20px;
+}
+@media (max-width: 375px){}
+
+  .title {
+    top: 70px;
+    position: absolute;
+    left: 80px;
+    width: 90px;
+    height: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+.cube2 > div {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+  opacity: 1;
+  position: absolute;
+}
+.cube2 {
+  width: 250px;
+  height: 250px;
+  transform-style: preserve-3d;
+  animation: rotate-cube 20s ease-in-out infinite;
+  position: relative;
+}
+
+.cube3 > div {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+  opacity: 1;
+  position: absolute;
+}
+.cube3 {
+  width: 250px;
+  height: 250px;
+  transform-style: preserve-3d;
+  animation: rotate-cube 20s ease-in-out infinite;
+  position: relative;
+}
+
+.cube4 > div {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+  opacity: 1;
+  position: absolute;
+}
+.cube4 {
+  width: 250px;
+  height: 250px;
+  transform-style: preserve-3d;
+  animation: rotate-cube 20s ease-in-out infinite;
+  position: relative;
+}
+  }
