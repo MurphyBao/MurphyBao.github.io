@@ -1,0 +1,28 @@
+.loader {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    z-index: 2;
+}
+
+.loader::after {
+    content: '\2026';
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+    animation: dots steps(4, end) 2s infinite;
+    width: 0px;
+    
+}
+
+@keyframes dots{
+    to{
+        width: 0.75em;
+    }
+}
+
+
+

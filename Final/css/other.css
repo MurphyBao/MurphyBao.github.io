@@ -1,0 +1,168 @@
+html body {
+    width: 100%;
+    height: 100%;
+    background-color: #e3c9f7 ;
+    margin: 0;
+
+}
+
+.title{
+    top: 50px;
+    position: absolute;
+    left:80px;
+    width: 900px;
+    height: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+.cube5  {
+    width:500px;
+    height:500px;
+    transform-style: preserve-3d;
+    animation: rotate-cube 30s ease-in-out infinite;
+}
+
+.cube5 > div {
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    opacity: 1;
+    position: absolute;
+}
+
+/* 前 */
+.cube5 .b1 {
+    
+    transform: rotateY(0deg) translateZ(250px);
+  }
+  
+  /* 右 */
+  .cube5 .b2 {
+   
+    transform: rotateY(90deg) translateZ(250px);
+  }
+  
+  /* 左 */
+  .cube5 .b3 {
+    
+    transform: rotateY(-90deg) translateZ(250px);
+  }
+  
+  /* 下 */
+  .cube5 .b4 {
+    
+    transform: rotateX(90deg) translateZ(250px);
+  }
+  
+  /* 上 */
+  .cube5 .b5 {
+    
+    transform: rotateX(-90deg) translateZ(250px);
+  }
+  
+  /* 后 */
+  .cube5 .b6 {
+    
+    transform: rotateY(180deg) translateZ(250px);
+  }
+
+@keyframes rotate-cube {
+    0%{
+        transform: rotateX(0deg)  rotateY(0deg);
+    }
+
+    20%{
+        transform: rotateY(-90deg);
+    }
+
+    40%{
+        transform: rotateX(-90deg);
+
+    }
+
+    60% {
+        transform: rotateY(90deg);
+    }
+
+    80%{
+        transform: rotateX(90deg);
+    }
+
+    100% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+}
+
+.cube6  {
+    width:500px;
+    height:500px;
+    transform-style: preserve-3d;
+    animation: rotate-cube 30s ease-in-out infinite;
+}
+
+.cube6 > div {
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    opacity: 1;
+    position: absolute;
+}
+
+/* 前 */
+.cube6 .b11 {
+    
+    transform: rotateY(0deg) translateZ(250px);
+  }
+  
+  /* 右 */
+  .cube6 .b21 {
+   
+    transform: rotateY(90deg) translateZ(250px);
+  }
+  
+  /* 左 */
+  .cube6 .b31 {
+    
+    transform: rotateY(-90deg) translateZ(250px);
+  }
+  
+  /* 下 */
+  .cube6 .b41 {
+    
+    transform: rotateX(90deg) translateZ(250px);
+  }
+  
+  /* 上 */
+  .cube6 .b51 {
+    
+    transform: rotateX(-90deg) translateZ(250px);
+  }
+  
+  /* 后 */
+  .cube6 .b61 {
+    
+    transform: rotateY(180deg) translateZ(250px);
+  }
+
+
+  .homepage {
+    position: absolute;
+    height: 80px;
+    width: auto;
+    top: 45px;
+    left: 0px;
+  }
