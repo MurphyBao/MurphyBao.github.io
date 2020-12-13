@@ -1,5 +1,5 @@
 body {
-    width: 1520px;
+
     height: 1800px;
     border:80px solid rgb(147, 194, 157) ;
     background-color: white;
@@ -63,7 +63,7 @@ body {
     height: 1000px;
     background-color: ;
     margin-top: 400px;
-    margin-left: 100px;
+    margin-left: 120px;
 }
 
 #grid2 {
@@ -128,20 +128,26 @@ body {
 }
 /* Mobile */ 
 @media (max-width: 375px) {
-    body {
+    html{
         width: 375px;
-        height: 1300px;
-        background-color: rgb(147, 194, 157) ;
+    }
+    body {
+        height:1200px;
+        border:20px solid rgb(147, 194, 157) ;
+        background-color: white;
+        padding: 0;
+        margin: 0;
     }
    
-    .inbg {
-        width: 320px;
-        height: 1100px;
-        background-color: white;
+    .studio {
+        /* margin-top: auto; */
+        margin-top: 10px;
         position: relative;
-        text-align: center;
-        left: 20px;
-        top: 80px;
+        height: 200px;
+        width: auto;
+        cursor: pointer;
+        left: -190px;
+        top: -600px;
     }
     #header {
         position: absolute;
@@ -155,21 +161,21 @@ body {
         height: 100px;
         width: auto;
         position: absolute;
-        left: -30px;
+        left: 0px;
         top: -20px;
     }
     .murphy {
         position: absolute;
-        left: 90px;
+        left: 110px;
         top: 10px;
-        width: 150px;
+        width: 120px;
         height: auto;
     }
     .intro {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 18px;
         position: absolute;
-        left: 93px;
+        left: 113px;
         top: 55px;
     }
     .monster {
@@ -180,36 +186,7 @@ body {
         position: absolute;
         cursor: pointer;
     }
-    .interaction {
-        position: relative;
-        height: 200px;
-        width: auto;
-        cursor: pointer;
-        left: 450px;
-    }
-    .studio {
-        position: relative;
-        height: 200px;
-        width: auto;
-        cursor: pointer;
-        left: -75px;
-    }
-    .photography {
-        position: relative;
-        height: 200px;
-        width: auto;
-        top: 400px;
-        cursor: pointer;
-        left: 245px;
-    }
-    .lecture {
-        position: relative;
-        height: 200px;
-        width: auto;
-        top: 400px;
-        cursor: pointer;
-        right: 280px;
-    }
+
     #grid1 {
         position: absolute;
         width: 20px;
@@ -222,9 +199,34 @@ body {
         position: relative;
         height: 200px;
         width: auto;
-        top: 195px;
+        top: -605px;
         cursor: pointer;
-        right: 75px;
+        right: 190px;
     }
+    .interaction {
+        position: relative;
+        height: 200px;
+        width: auto;
+        cursor: pointer;
+        top: 1880px;
+        right: 830px;
+    }
+
+    .photography {
+    position: relative;
+    height: 200px;
+    width: auto;
+    top: 2070px;
+    cursor: pointer;
+    right: 1035px;
+}
+.monster {
+    height: 150px;
+    width: auto;
+    left: 220px;
+    top: 20px;
+    position: absolute;
+    cursor: pointer;
+}
     
 }
