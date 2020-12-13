@@ -6,7 +6,7 @@ body {
 
 .inbg {
     width: 95%;
-    height: 2000px;
+    height: 1700px;
     background-color: white;
     position: relative;
     text-align: center;
@@ -68,7 +68,7 @@ body {
     height: 1000px;
     background-color: ;
     top: 500px;
-    left: 160px;
+    left: 200px;
 }
 
 #grid2 {
@@ -82,30 +82,30 @@ body {
 
 .studio {
     position: relative;
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: auto;
     cursor: pointer;
 }
 
 .lecture {
     position: relative;
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: auto;
     top: 200px;
     cursor: pointer;
 }
 
 .interaction {
     position: relative;
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: auto;
     cursor: pointer;
 }
 
 .photography {
     position: relative;
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: auto;
     top: 200px;
     cursor: pointer;
 }
