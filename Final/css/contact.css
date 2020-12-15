@@ -7,39 +7,52 @@
     
     }
     li{
-        font-size: 40px;
+        font-size: 5em;
         list-style: none;
         position: relative;
-        left:400px;
-        top:300px;
+        
 
     }
-    h1{
-        font-size: 60px;
-        position: relative;
-        left:100px;
-    }
 
-    .info1{
+    ul{
+        margin-top: 30vh;
+    margin-left: 10vw;
+    }
+    h1 {
+        font-size: 8em;
         position: relative;
-        font-size: 20px;
-        left: 700px;
-        top:150px;
+        left: 3vw;
+    }
+    .info1 {
+        position: absolute;
+        font-size: 3em;
+        /* left: 700px; */
+        /* top: 150px; */
         display: none;
+        left: 40vw;
+        top: 50vh;
+        width: 60vw;
     }
     .info2{
-        position: relative;
-        font-size: 20px;
-        left: 700px;
-        top:200px;
+        position: absolute;
+        font-size: 3em;
+        /* left: 700px; */
+        /* top: 150px; */
         display: none;
+        left: 40vw;
+        top: 50%;
+        width: 20vw;
     }
     .info3{
-        position: relative;
-        font-size: 20px;
-        left: 700px;
-        top:253px;
+        position: absolute;
+        font-size: 3em;
+        /* left: 700px; */
+        /* top: 150px; */
         display: none;
+        left: 40vw;
+        top: 50%;
+        width: 20vw;
+        
     }
 
     /* Tablet */

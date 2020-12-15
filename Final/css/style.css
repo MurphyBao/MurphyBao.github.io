@@ -1,232 +1,104 @@
-body {
 
-    height: 1800px;
-    border:80px solid rgb(147, 194, 157) ;
+
+body {
+    width: 100%;
     background-color: white;
     padding: 0;
     margin: 0;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-
+.me {
+    position: absolute;
+    /* position: relative; */
+    width: 30vh;
+    margin-left: 15vw;
+    margin-top: 15vh;
+    margin-bottom: 2vh;
+}
 
 #header {
     position: absolute;
-    width: 500px;
+    width: 40vw;
     height: 200px;
-    background-color:;
-    left:190px;
-    top: 180px;
+    background-color: ;
+    left: 15vw;
+    top: 20vh;
 }
 
 .head1 {
     height:100px;
     width: auto;
-    position: absolute;
-    left:20px;
-    top: 50px;
-
+    position: relative;
+    margin-left: 3vw;
+    margin-bottom: 60vh;
 }
 
-.murphy{
-    position: absolute;
-    left: 140px;
-    top:70px;
-    width: 300px;
-    height:auto;
-    
-
+#name {
+    font-size: 2em;
+    position: relative;
+    margin-left: 13vw;
+    margin-top: 5vh;
 }
 
 .intro{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    position: absolute;
-    left:148px;
-    top: 120px;
+    font-size: 1em;
+    position: relative;
+    margin-left: 13vw;
+    margin-top: 5vh;
 }
 
 
 
 .monster {
-    height:250px;
-    width:auto;
-    right: 0px;
-    top: -80px;
-    position: fixed;
+
+        height: 25vh;
+        width: auto;
+        position: fixed;
+
     cursor: pointer;
 }
 
 
-#grid1 {
-    position: relative;
-    width: 500px;
-    height: 1000px;
-    background-color: ;
-    margin-top: 400px;
-    margin-left: 120px;
-}
 
-#grid2 {
-    position: relative;
-    width: 500px;
-    height: 1000px;
-    background-color: ;
-    margin-top: -1200px;
-    margin-left: 900px;
-}
 
-.studio {
-    position: relative;
-    height: 500px;
-    width: auto;
-    cursor: pointer;
-}
-
-.lecture {
-    position: relative;
-    height: 500px;
-    width: auto;
-    top: 200px;
-    cursor: pointer;
-}
-
-.interaction {
-    position: relative;
-    height: 500px;
-    width: auto;
-    cursor: pointer;
-}
-
-.photography {
-    position: relative;
-    height: 500px;
-    width: auto;
-    top: 200px;
-    cursor: pointer;
-}
-
-.lecture:hover{
+.test:hover{
     opacity: 0.7;
 }
 
-.interaction:hover{
-    opacity: 0.7;
-}
-
-.photography:hover{
-    opacity: 0.7;
-}
-
-.studio:hover{
-    opacity: 0.7;
-}
-/* Tablet */
-@media (max-width:1680px) {
-    body{
-        
-    }
-}
+.test{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    min-width: 150px;
+    
+   }
+   .container{
+    width: 70%;
+    position: relative;
+    margin: auto;
+    top:25vh;
+    
+   }
 /* Mobile */ 
-@media (max-width: 375px) {
-    html{
-        width: 375px;
-    }
-    body {
-        height:1200px;
-        border:20px solid rgb(147, 194, 157) ;
-        background-color: white;
-        padding: 0;
-        margin: 0;
-    }
-   
-    .studio {
-        /* margin-top: auto; */
-        margin-top: 10px;
-        position: relative;
-        height: 200px;
-        width: auto;
-        cursor: pointer;
-        left: -190px;
-        top: -600px;
-    }
-    #header {
-        position: absolute;
-        width: 280px;
-        height: 100px;
-        background-color: ;
-        left: 90px;
-        top: 180px;
-    }
-    .head1 {
-        height: 100px;
-        width: auto;
-        position: absolute;
-        left: 0px;
-        top: -20px;
-    }
-    .murphy {
-        position: absolute;
-        left: 110px;
-        top: 10px;
-        width: 120px;
-        height: auto;
-    }
-    .intro {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 18px;
-        position: absolute;
-        left: 113px;
-        top: 55px;
+@media (max-width:375px ) {
+    .test{
+     float: left;
+     width: 100%;
+     box-sizing: border-box;
+     padding: 10px;
     }
     .monster {
-        height: 150px;
+        height: 25vh;
         width: auto;
-        left: 220px;
-        top: 60px;
-        position: absolute;
+        position: fixed;
         cursor: pointer;
+        left: 30vh;
     }
-
-    #grid1 {
-        position: absolute;
-        width: 20px;
-        height: 100px;
-        background-color: ;
-        top: 500px;
-        left: 160px;
-    }
-    .lecture {
-        position: relative;
-        height: 200px;
-        width: auto;
-        top: -605px;
-        cursor: pointer;
-        right: 190px;
-    }
-    .interaction {
-        position: relative;
-        height: 200px;
-        width: auto;
-        cursor: pointer;
-        top: 1880px;
-        right: 830px;
-    }
-
-    .photography {
-    position: relative;
-    height: 200px;
-    width: auto;
-    top: 2070px;
-    cursor: pointer;
-    right: 1035px;
-}
-.monster {
-    height: 150px;
-    width: auto;
-    left: 220px;
-    top: 20px;
-    position: absolute;
-    cursor: pointer;
-}
-    
+   }
+/* Tablet */
+@media (max-width:1680px) {
+   
 }

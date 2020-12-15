@@ -1,10 +1,10 @@
 .loader {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
+    font-size: 5em;
     color: black;
     text-align: center;
     position: relative;
-    top: 30px;
+    top: 2vh;
     z-index: 2;
 }
 

@@ -2,17 +2,18 @@ html body {
     
     background-color: #bec6f4 ;
     margin: 0;
+    
 
 }
 
-.title{
-    top: 50px;
-    position: absolute;
-    left:80px;
-    width: 900px;
-    height: auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 60px;
+.title {
+  top: 50px;
+  position: absolute;
+  left: 80px;
+  width: 900px;
+  height: auto;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 4em;
 }
 
 * {
@@ -110,11 +111,11 @@ img{
 }
 
 .next {
-    position: absolute;
-    height: 80px;
-    width: auto;
-    top: 800px;
-    right:80px;
+  position: fixed;
+  height: 15vh;
+  width: auto;
+  top: 87vmin;
+  right: 10px;
 }
 
 .cube2  {
@@ -281,12 +282,12 @@ img{
   }
 
 
-.homepage {
-  position: absolute;
-  height: 80px;
-  width: auto;
-  top: 45px;
-  left: 0px;
+  .homepage {
+    position: absolute;
+    height: 100px;
+    width: auto;
+    top: 35px;
+    
 }
 
 /* Mobile */

@@ -5,14 +5,14 @@ html body {
 
 }
 
-.title{
-    top: 50px;
-    position: absolute;
-    left:80px;
-    width: 900px;
-    height: auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 60px;
+.title {
+  top: 50px;
+  position: absolute;
+  left: 80px;
+  width: 900px;
+  height: auto;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 4em;
 }
 
 main {
@@ -160,12 +160,11 @@ img{
 
   .homepage {
     position: absolute;
-    height: 80px;
+    height: 100px;
     width: auto;
-    top: 45px;
-    left: 0px;
-  }
-
+    top: 35px;
+    
+}
   /* Tablet */
 @media (max-width:1680px) {
   body{
