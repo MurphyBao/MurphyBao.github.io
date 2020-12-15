@@ -7,51 +7,52 @@
     
     }
     li{
-        font-size: 5em;
+        font-size: 5vw;
         list-style: none;
         position: relative;
+        margin-left: 5vw;
         
 
     }
 
     ul{
-        margin-top: 30vh;
-    margin-left: 10vw;
+        margin-top: 20vh;
+    
     }
     h1 {
-        font-size: 8em;
+        font-size: 8vw;
         position: relative;
         left: 3vw;
     }
     .info1 {
         position: absolute;
-        font-size: 3em;
+        font-size: 3vw;
         /* left: 700px; */
         /* top: 150px; */
         display: none;
-        left: 40vw;
-        top: 50vh;
-        width: 60vw;
+        left: 30vw;
+        top: 40%;
+        width: 50vw;
     }
     .info2{
         position: absolute;
-        font-size: 3em;
+        font-size: 3vw;
         /* left: 700px; */
         /* top: 150px; */
         display: none;
         left: 40vw;
-        top: 50%;
-        width: 20vw;
+        top: 40%;
+        
     }
     .info3{
         position: absolute;
-        font-size: 3em;
+        font-size: 3vw;
         /* left: 700px; */
         /* top: 150px; */
         display: none;
         left: 40vw;
-        top: 50%;
-        width: 20vw;
+        top: 40%;
+        
         
     }
 
@@ -62,46 +63,3 @@
     }
 }
 
-/* Mobile */
-@media (max-width: 375px) {
-    h1 {
-        font-size: 60px;
-        position: relative;
-        left: 30px;
-    }
-    h1 {
-        font-size: 50px;
-        position: relative;
-        left: 20px;
-    }
-
-    li {
-        font-size: 40px;
-        list-style: none;
-        position: relative;
-        left: -20px;
-        top: 300px;
-    }
-    .info1 {
-        position: relative;
-        font-size: 15px;
-        left: 180px;
-        top: 130px;
-        display: none;
-        width: 150px;
-    }
-    .info2 {
-        position: relative;
-        font-size: 15px;
-        left: 180px;
-        top: 210px;
-        display: none;
-    }
-    .info3 {
-        position: relative;
-        font-size: 15px;
-        left: 230px;
-        top: 260px;
-        display: none;
-    }
-    }

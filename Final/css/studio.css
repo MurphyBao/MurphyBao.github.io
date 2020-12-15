@@ -31,57 +31,8 @@ img{
     width: 500px;
     height: 500px;
 }
-.cube  {
-    width:500px;
-    height:500px;
-    transform-style: preserve-3d;
-    animation: rotate-cube 20s ease-in-out infinite;
-}
 
-.cube > div {
-    width: 500px;
-    height: 500px;
-    background-size: cover;
-    background-position: center center;
-    opacity: 1;
-    position: absolute;
-}
 
-/* 前 */
-.cube .img1 {
-    
-    transform: rotateY(0deg) translateZ(270px);
-  }
-  
-  /* 右 */
-  .cube .img2 {
-   
-    transform: rotateY(90deg) translateZ(270px);
-  }
-  
-  /* 左 */
-  .cube .img3 {
-    
-    transform: rotateY(-90deg) translateZ(270px);
-  }
-  
-  /* 下 */
-  .cube .img4 {
-    
-    transform: rotateX(90deg) translateZ(270px);
-  }
-  
-  /* 上 */
-  .cube .img5 {
-    
-    transform: rotateX(-90deg) translateZ(270px);
-  }
-  
-  /* 后 */
-  .cube .img6 {
-    
-    transform: rotateY(180deg) translateZ(270px);
-  }
 
 @keyframes rotate-cube {
     0%{
@@ -118,13 +69,14 @@ img{
   right: 10px;
 }
 
+
 .cube2  {
     width:500px;
     height:500px;
     transform-style: preserve-3d;
     animation: rotate-cube 20s ease-in-out infinite;
     position: relative;
-
+    
 }
 
 .cube2 > div {
@@ -173,59 +125,7 @@ img{
   }
 
 
-.cube3  {
-    width:500px;
-    height:500px;
-    transform-style: preserve-3d;
-    animation: rotate-cube 20s ease-in-out infinite;
-    position: relative;
 
-}
-
-.cube3 > div {
-    width: 500px;
-    height: 500px;
-    background-size: cover;
-    background-position: center center;
-    opacity: 1;
-    position: absolute;
-}
-
-/* 前 */
-.cube3 .img10 {
-    
-    transform: rotateY(0deg) translateZ(270px);
-  }
-  
-  /* 右 */
-.cube3 .img20{
-   
-    transform: rotateY(90deg) translateZ(270px);
-  }
-  
-  /* 左 */
-.cube3 .img30{
-    
-    transform: rotateY(-90deg) translateZ(270px);
-  }
-  
-  /* 下 */
-.cube3 .img40{
-    
-    transform: rotateX(90deg) translateZ(270px);
-  }
-  
-  /* 上 */
-.cube3 .img50{
-    
-    transform: rotateX(-90deg) translateZ(270px);
-  }
-  
-  /* 后 */
-.cube3 .img60{
-    
-    transform: rotateY(180deg) translateZ(270px);
-  }
 
   .cube4  {
     width:500px;
@@ -306,57 +206,8 @@ img{
   width: 250px;
   height: 250px;
 }
-.cube  {
-  width:250px;
-  height:250px;
-  transform-style: preserve-3d;
-  animation: rotate-cube 20s ease-in-out infinite;
-}
 
-.cube > div {
-  width: 250px;
-  height: 250px;
-  background-size: cover;
-  background-position: center center;
-  opacity: 1;
-  position: absolute;
-}
 
-/* 前 */
-.cube .img1 {
-  
-  transform: rotateY(0deg) translateZ(270px);
-}
-
-/* 右 */
-.cube .img2 {
- 
-  transform: rotateY(90deg) translateZ(270px);
-}
-
-/* 左 */
-.cube .img3 {
-  
-  transform: rotateY(-90deg) translateZ(270px);
-}
-
-/* 下 */
-.cube .img4 {
-  
-  transform: rotateX(90deg) translateZ(270px);
-}
-
-/* 上 */
-.cube .img5 {
-  
-  transform: rotateX(-90deg) translateZ(270px);
-}
-
-/* 后 */
-.cube .img6 {
-  
-  transform: rotateY(180deg) translateZ(270px);
-}
 
 @keyframes rotate-cube {
   0%{
@@ -419,21 +270,7 @@ img{
   position: relative;
 }
 
-.cube3 > div {
-  width: 250px;
-  height: 250px;
-  background-size: cover;
-  background-position: center center;
-  opacity: 1;
-  position: absolute;
-}
-.cube3 {
-  width: 250px;
-  height: 250px;
-  transform-style: preserve-3d;
-  animation: rotate-cube 20s ease-in-out infinite;
-  position: relative;
-}
+
 
 .cube4 > div {
   width: 250px;

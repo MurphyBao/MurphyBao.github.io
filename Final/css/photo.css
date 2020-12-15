@@ -12,14 +12,15 @@ html body {
   width: 900px;
   height: auto;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 4em;}
+  font-size: 4em;
+}
 
-.text{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
-    position: absolute;
-    top:110px;
-    left: 80px;
+.text {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2em;
+  position: absolute;
+  top: 130px;
+  left: 80px;
 }
 * {
     box-sizing: border-box;
