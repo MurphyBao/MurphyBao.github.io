@@ -19,7 +19,8 @@ html body {
 main{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: relative;
-    top:200px;
+    margin-top: 20vmax;
+    margin-bottom: 10vmax;
 }
 
 .homepage {
