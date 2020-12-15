@@ -22,6 +22,7 @@ main{
     position: relative;
     margin-top: 15vh;
     margin-bottom: 5vh;
+    font-size: 1.5vh;
 }
 
 .homepage {
