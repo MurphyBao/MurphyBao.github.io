@@ -3,7 +3,8 @@ html body {
     background-color: #f4f4e3 ;
     margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+    width: 100%;
+    height: auto;
 }
 
 .title {
@@ -19,8 +20,8 @@ html body {
 main{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: relative;
-    margin-top: 20vmax;
-    margin-bottom: 10vmax;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
 }
 
 .homepage {
