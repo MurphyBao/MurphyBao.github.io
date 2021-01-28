@@ -1,0 +1,53 @@
+
+
+.img1 {
+    width: 20%;
+    height: auto;
+    margin-top: 40px;
+    
+}
+
+blockquote {
+    margin: 0;
+    width: 20%;
+    position: absolute;
+    top: 840px;
+    left: 400px;
+    
+
+
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+
+
+table,
+td {
+    border: 1px solid #333;
+    margin-top: 40px;
+
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+.links{
+    margin-top: 40px;
+}
+
+h3 {
+    font-family: imp;
+}
+
+.img2 {
+    position: absolute;
+    clip: rect(0 500px 500px 0);
+}
