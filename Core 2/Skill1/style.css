@@ -1,20 +1,34 @@
 
+body {
+    background-color:rgba(59, 47, 163, 0.2);
+    font-size: 24px;
+    margin-left: 20%;
+    margin-top: 10em;
+}
 
-.img1 {
-    width: 20%;
+.head {
+    width: 5%;
     height: auto;
-    margin-top: 40px;
+    left: 0;
+    position: fixed;
+    top: 0%;
     
 }
 
-blockquote {
+.img1 {
+    width: 500px;
+    height: auto;
     margin: 0;
-    width: 20%;
-    position: absolute;
-    top: 840px;
-    left: 400px;
-    
+    padding: 0;
+}
 
+blockquote {
+    margin:0;    
+}
+
+#div1 {
+    display: flex;
+    justify-content: flex-start;
 
 }
 
@@ -28,26 +42,75 @@ blockquote p {
 
 table,
 td {
-    border: 1px solid #333;
+    border: 2px solid green;
     margin-top: 40px;
 
 }
 
 thead,
 tfoot {
-    background-color: #333;
+    background-color: darkgrey;
     color: #fff;
 }
+
+.tr1{
+    background-color: khaki;
+}
+
+.tr2{
+    background-color: lightcoral;
+}
+
+.tr3{
+    background-color: lightskyblue;
+}
+
 
 .links{
     margin-top: 40px;
 }
 
+a {
+    color: lightsalmon;
+    transition: background-color .3s;
+  }
+  
+  a:hover {
+    color: lightsteelblue;
+  }
+
 h3 {
-    font-family: imp;
+    margin-top: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .img2 {
     position: absolute;
     clip: rect(0 500px 500px 0);
 }
+
+.div2 {   
+    width:300px;   
+    border:1px solid green   
+}   
+
+.img2 {   
+    float:left;   
+    width:120px;   
+    height:120px   
+} 
+
+.img2 {
+    width:300px;
+}
+
+.img2 .imgleft{
+    float:left;  /* 对图片进行浮动就可以实现了  */
+    width:100px;
+    height: 300px;
+ }
+
+ .imgleft{
+     padding: 1em;
+ }
+
