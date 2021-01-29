@@ -4,6 +4,7 @@ body {
     font-size: 24px;
     margin-left: 20%;
     margin-top: 10em;
+    
 }
 
 .head {
@@ -84,16 +85,6 @@ h3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.img2 {
-    position: absolute;
-    clip: rect(0 500px 500px 0);
-}
-
-.div2 {   
-    width:300px;   
-    border:1px solid green   
-}   
-
 .img2 {   
     float:left;   
     width:120px;   
@@ -105,9 +96,9 @@ h3 {
 }
 
 .img2 .imgleft{
-    float:left;  /* 对图片进行浮动就可以实现了  */
+    float:left;  /* 图片进行浮动  */
     width:100px;
-    height: 300px;
+    height: 300px;    
  }
 
  .imgleft{
