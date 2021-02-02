@@ -74,43 +74,7 @@ h2{
   width: 40%;
 }
   
-.fade_left {
-  animation-name: fade_left;
-  -webkit-animation-name: fade_left;
-}
-.fade_block {
-  animation-duration: 2s;
-  animation-timing-function: ease-in;
-  animation-fill-mode: both;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-timing-function: ease-in;
-  -webkit-animation-fill-mode: both;
-}
-@keyframes fade_left {
-  0% {
-      opacity: 0;
-      transform: translateX(-20px);
-      -webkit-transform: translateX(-20px);
-  }
-  100% {
-      opacity: 1;
-      transform: translateX(0px);
-      -webkit-transform: translateX(0px);
-  }
-}
-@keyframes fade_right {
-  0% {
-      opacity: 0;
-      transform: translateX(20px);
-      -webkit-transform: translateX(20px);
-  }
-  100% {
-      opacity: 1;
-      transform: translateX(0px);
-      -webkit-transform: translateX(0px);
-  }
 
-}
 .area-header {
   text-align: left;
 
