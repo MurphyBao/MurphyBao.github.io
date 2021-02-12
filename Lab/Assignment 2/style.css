@@ -244,17 +244,19 @@
 }
 
 .img5{
-    width: 40%;
+    width: 20%;
     height: auto;
+    background-color: black;
+    
     
 }
 
 .bh{
     width: 450px;
-    height: 600px;
-    background-color: rgb(228, 228, 228);
+    
+   
     position: relative;
-    margin-left: 10%;
+    margin-left: -10%;
 }
 
 .item6{
@@ -266,8 +268,8 @@
 }
 
 .img6{
-    width: 40%;
-    height: auto;
+    width: 20%;
+    height: 20%;
 }
 
 .tmr {
@@ -277,7 +279,7 @@
 
     );
     position: relative;
-    width: 550px;
+    
     height: 800px;
     margin-left: 5%;
 
@@ -285,7 +287,8 @@
 
 .tmr2{
     position: relative;
-    margin-left: -15%;
+    margin-left: -3%;
+    margin-top: 10%;
     
 }
 
