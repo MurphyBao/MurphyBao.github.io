@@ -29,6 +29,50 @@
             right: 10%;
         }
 
+        .link--nukun {
+	color: #E3E8DC;
+    font-weight: 900;
+    font-size: 2em;
+	text-transform: uppercase;
+	overflow: hidden;
+	padding: 10px 0;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+}
+
+.link--nukun:hover {
+	color: #1e1a1b;
+}
+
+
+
+.link--nukun::after {
+	background: blue;
+	-webkit-transform: translate3d(-300%,0,0) scale3d(0,1,1);
+	transform: translate3d(-300%,0,0) scale3d(0,1,1);
+}
+
+.link--nukun:hover::before {
+	-webkit-transform: translate3d(300%,0,0) scale3d(0,1,1);
+	transform: translate3d(300%,0,0) scale3d(0,1,1);
+}
+
+.link--nukun:hover::after {
+	-webkit-transform: translate3d(0,0,0) scale3d(1,1,1);
+	transform: translate3d(0,0,0) scale3d(1,1,1);
+}
+
+
+.link--nukun:hover span {
+	color:blue;
+	-webkit-transform: perspective(1000px) rotate3d(0,1,0,180deg);
+	transform: perspective(1000px) rotate3d(0,1,0,180deg);
+}
+
+
     </style>
     <div class="video1">
         <video controls width="50%">
@@ -38,8 +82,8 @@
         </video>
     </div>
     <a href="./page2.html">
-        <div class="next">
-            next
+        <div class="grid__item color-3">
+            <a class="link link--nukun" href="./page2.html">AYE<span>AYE</span>CAPTAIN!</a>
         </div></a>
 </body>
 </html>
