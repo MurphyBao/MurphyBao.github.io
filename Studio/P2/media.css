@@ -20,9 +20,10 @@ body{
 .text5{
 
 
-left: 10vw !important;
-width: 80% !important;
+left: 5% !important;
+width: 90% !important;
 margin-top: 3vh  !important;
+text-justify: inter-word;
 }
 
 .text52{
