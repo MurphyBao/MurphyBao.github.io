@@ -8,18 +8,18 @@ body{
     height: 450vh;
     color: white;
     background: linear-gradient(white 20%, black) no-repeat;
-    position: relative  !important;
+    
     overflow: scroll;
     font-size: 1em;
     
 }
 
 #page{
-    position: relative !important;
+    
 }
 .text5{
 
-position: relative !important;
+
 left: 15vw;
 width: 70% !important;
 margin-top: 10vh;
@@ -35,7 +35,7 @@ margin-top: 5vh;
 
 .text53{
 font-size: 1em;
-position: relative !important;
+
 left: 15vw;
 
 margin-top: 5vh;
@@ -47,7 +47,7 @@ margin-top: 5vh;
 left: 15vw;
 width: 100%;
 margin-top: 5vh;
-position: relative;
+
 }
 
 }
