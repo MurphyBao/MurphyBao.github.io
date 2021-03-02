@@ -20,9 +20,9 @@ body{
 .text5{
 
 
-left: 15vw;
-width: 70% !important;
-margin-top: 10vh;
+left: 10vw !important;
+width: 80% !important;
+margin-top: 3vh  !important;
 }
 
 .text52{
@@ -30,7 +30,7 @@ font-size: 1em;
 position: relative  !important;
 left: 20vw;
 width: 100% !important;
-margin-top: 5vh;
+
 }
 
 .text53{
