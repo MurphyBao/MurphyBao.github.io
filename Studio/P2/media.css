@@ -10,7 +10,7 @@ body{
     background: linear-gradient(white 20%, black) no-repeat;
     position: relative  !important;
     overflow: scroll;
-    font-size: 6px;
+    font-size: 1em;
     
 }
 
