@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Flexbox / Grid Demo</title>
+   <link rel="stylesheet" href="normalize.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+
+   <style>
+       :root {
+   --primary-font: Poppins, Helvetica, sans-serif;
+   --dark: #333;
+}
+
+* { box-sizing: border-box; }
+
+html {
+   background: gray;
+   font-family: var(--primary-font);
+   font-size: 62.5%;
+   height: 100%;
+}
+
+body {
+   background: #fff;
+   font-size: 16px;
+   min-height: 100%;
+}
+
+.box1 { background-color: #c43737 }
+.box2 { background-color: #da904b }
+.box3 { background-color: #ddc53c }
+.box4 { background-color: #43ad3f }
+.box5 { background-color: #37be96 }
+.box6 { background-color: #4ec7c1 }
+.box7 { background-color: #477cc2 }
+.box8 { background-color: #3c3eb6 }
+.box9 { background-color: #9741b9 }
+.box10 { background-color: #9e1993 }
+
+.container {
+   border: 10px solid goldenrod;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   min-height: 100vh;
+}
+
+.box {
+   border: 1px solid var(--dark);
+   color: var(--dark);
+   flex: 1 1 calc(100% / 3);
+   font-size: 3rem;
+   padding: 0;
+   text-align: center;
+}
+   </style>
+</head>
+<body>
+   
+   <div class="container">
+      <div class="box box1">1</div>
+      <div class="box box2">2</div>
+      <div class="box box3">3</div>
+      <div class="box box4">4</div>
+      <div class="box box5">5</div>
+      <div class="box box6">6</div>
+      <div class="box box7">7</div>
+      <div class="box box8">8</div>
+      <div class="box box9">9</div>
+      <div class="box box10">10</div>
+   </div>
+
+</body>
+</html>
