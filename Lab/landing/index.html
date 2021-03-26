@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    a:link{
+    text-decoration:none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+
+</style>
+<body>
+    <div>
+        <div class="hello">
+            <span>HELLO</span>
+        </div>
+        <div class="cato">
+            <div class="studio">
+                <span>STUDIO</span>
+            </div>
+            <div class="lab">
+                <span>LAB</span>
+            </div>
+        </div>
+        <div>
+            <ul class="l1">
+                <a href="https://murphybao.github.io/Lab/Skill1/index.html" target="_blank">
+                    <li><span class="sp1">Core 1 Skills Test</span></li></a>
+                <a href="https://murphybao.github.io/Lab/Assignment1/index.html" target="_blank">
+                    <li><span class="sp2">Embedded Content</span></li>
+                </a>
+                <a href="https://murphybao.github.io/Lab/Assignment 2/" target="_blank">
+                    <li><span class="sp1">Translating Print Media</span></li>
+                </a>
+                <a href="https://murphybao.github.io/Lab/Exercise3/index.html" target="_blank">
+                    <li><span class="sp2">Mutimedia Story</span></li>
+                </a>
+                <a href="https://murphybao.github.io/Lab/Assignment4/index.html" target="_blank">
+                    <li><span class="sp1">Interative Experience</span></li>
+                </a>
+                <a href="https://murphybao.github.io/Lab/a2/index.html" target="_blank">
+                    <li><span class="sp2">Digital Zine</span></li>
+                </a>
+                <a href="https://3asmt.glitch.me/" target="_blank">
+                    <li><span class="sp1">Intro To JS Experience</span></li>
+                </a>
+                
+                <li><span class="b1">back</span></li>
+            </ul>
+
+            <ul class="l2">
+
+                <a href="https://murphybao.github.io/Studio/P1/index.html" target="_blank">
+                    <li><span class="sp1">Cross Platform Storytelling</span></li>
+                </a>
+                <a href="https://murphybao.github.io/Studio/P2/index.html" target="_blank">
+                    <li><span class="sp2">Stories as Network</span></li>
+                </a>
+                
+                <li>
+                    <span class="b2">back</span>
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+</body>
+<script type="text/javascript">
+    var hello = document.getElementsByClassName("hello")[0];
+    var cato = document.getElementsByClassName("cato")[0];
+    var l1 = document.getElementsByClassName("l1")[0];
+    var l2 = document.getElementsByClassName("l2")[0];
+    var lab = document.getElementsByClassName("lab")[0];
+    var stu = document.getElementsByClassName("studio")[0];
+    var b1 = document.getElementsByClassName("b1")[0];
+    var b2 = document.getElementsByClassName("b2")[0];
+
+    hello.onclick = function(){
+        hello.style.display = "none"; //hiding HELLO
+        cato.style.display = "flex"; //showing Studio and Lab
+        document.body.style.background = "green"; //change background after clicking
+    }
+
+    lab.onclick = function(){
+        stu.style.display = "none"; //hiding Studio
+        lab.style.display = "none"; //hiding Lab
+        l1.style.display = "block"; //Showing the project list
+        document.body.style.background = "orange"; //change background after clicking
+    }
+
+    b1.onclick = function(){
+        l1.style.display = "none"; //hiding project list 1
+        l2.style.display = "none"; //hiding project list 2
+        lab.style.display = "block"; //Lab shows up again
+        stu.style.display = "block"; // Studio shows up again
+        document.body.style.background = "green"; //change background after clicking
+    }
+
+    stu.onclick = function(){
+        lab.style.display = "none"; //hiding Studio
+        stu.style.display = "none"; //hiding Lab
+        l2.style.display = "block"; //Showing project list 2
+        document.body.style.background = "darkslateblue"; //change background after clicking
+    }
+
+    b2.onclick = function(){
+        l1.style.display = "none"; //hiding project list 1
+        l2.style.display = "none"; //hiding project list 2
+        lab.style.display = "block"; //Lab shows up again
+        stu.style.display = "block"; // Studio shows up again
+        document.body.style.background = "green"; //change background after clicking
+    }
+
+
+</script>
+
+</html>

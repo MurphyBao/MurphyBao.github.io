@@ -1,0 +1,237 @@
+body{
+    background-color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a:link{
+    text-decoration:none !important;  
+}
+a:visited{
+    color: black !important;
+    text-decoration: none !important;
+}
+a:hover{
+    color: white !important;
+    text-decoration: none !important;
+    background-color: black !important;
+}
+
+
+.hello{
+    position: absolute;
+    text-align: center;
+    font-size: 10em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 35%;
+    width: 100%;
+    cursor: pointer;
+    animation: show 2s ;
+   
+
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: scale(0, 0);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.1, 1.1);
+    }
+    to {
+        transform: scale(1, 1);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+.cato{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 40%;
+    font-size: 3em;
+    top: 45%;
+    left: 30%;
+    display: none;
+   
+
+}
+
+.lab{
+    position: relative;
+    margin: 0 auto;
+    cursor: pointer;
+    animation: show 2s ;
+}
+
+.studio{
+    position: relative;
+    margin: 0 auto;
+    cursor: pointer;
+    animation: show 2s ;
+}
+
+.l1{
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    width: 60%;
+    text-align: right;
+    font-size: 2em;
+    text-decoration: none;
+    list-style-type: none;
+    display: none;
+    cursor: pointer;
+}
+
+.l2{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 60%;
+    text-align: left;
+    font-size: 2em;
+    text-decoration: none;
+    list-style-type: none;
+    display: none;
+    cursor: pointer;
+    color: black;
+}
+
+.b1,.b2{
+    color: cornsilk;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+li{
+    margin-top: 2%;
+}
+
+span{
+    padding: 1%;
+}
+
+span:hover{
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 481px) {
+    .hello{
+        font-size: 4em;
+    }
+    .cato {
+        display: flex;
+        position: absolute;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        width: 40%;
+        font-size: 2em;
+        top: 45%;
+        left: 10%;
+        display: none;
+    }
+    .lab {
+        position: relative;
+        margin: 0 auto;
+        cursor: pointer;
+        animation: show 2s;
+        margin-left: 80%;
+    }
+
+    .l1{
+        font-size: 1.5em;
+        width: 80%;
+    }
+
+    .l2{
+        font-size: 1.5em;
+        width: 90%;
+        left: -5%;
+    }
+
+
+    .b1,.b2{
+        font-size: 1em;
+        
+    }
+
+    .sp1{
+        background-color: black;
+        padding: 2%;
+        color: white;
+       
+    }
+    .sp2{
+        background-color: white;
+        padding: 2%;
+        color: black;
+       
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .hello{
+        
+    }
+    .cato{
+        left: 15%;
+    }
+    .lab{
+        left: 60%;
+    }
+    .l1{
+        font-size: 1.5em;
+        width: 80%;
+    }
+
+    .l2{
+        font-size: 1.5em;
+        width: 90%;
+        left: 5%;
+    }
+
+
+    .b1,.b2{
+        font-size: 1em;
+        
+    }
+
+    .sp1{
+        background-color: black;
+        padding: 2%;
+        color: white;
+       
+    }
+    .sp2{
+        background-color: white;
+        padding: 2%;
+        color: black;
+       
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .sp1{
+        background-color: black;
+        padding: 2%;
+        color: white;
+       
+    }
+    .sp2{
+        background-color: white;
+        padding: 2%;
+        color: black;
+       
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    
+} 
