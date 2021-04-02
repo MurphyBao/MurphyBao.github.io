@@ -1,0 +1,39 @@
+
+body {
+    font-family: Arial;
+}
+
+.hello{
+    font-size: 5em;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.song-container{
+    padding: 5%;
+    border: 10px solid blue;
+    margin: 3%;
+    display: inline-block;
+    width: 15%;
+    
+  }
+
+.song-title{
+    color: coral;
+    font-size: 1rem;
+    
+}
+
+.song-artist{
+    color: coral;
+    font-size: 1rem;
+
+}
+img{
+    width: 100%;
+    height: auto;
+
+}
+
+
+
