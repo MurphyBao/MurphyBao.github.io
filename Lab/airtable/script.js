@@ -64,25 +64,29 @@ function showSongs() {
     songImage.src = song.fields.album_artwork[0].url;
     songContainer.append(songImage);*/
 
-    var songContainer = document.createElement("div");
+    var songContainer = document.createElement("div"); 
       songContainer.classList.add("song-container")
       document.querySelector(".container").append(songContainer);
+      console.log('songContainer');
       
       var songTitle = document.createElement("h1");
       songTitle.innerText = song.fields.album_title;
       songTitle.classList.add("song-title");
       songContainer.append(songTitle);
+      console.log('songTitle');
 
 
       var songArtist = document.createElement("h1");
       songArtist.innerText = song.fields.artist;
       songArtist.classList.add("song-artist");
       songContainer.append(songArtist);
+      console.log('songArtist');
 
       var songImage = document.createElement("img");
       songImage.src = song.fields.album_artwork[0].url;
       songImage.classList.add("song-artwork");
       songContainer.append(songImage);
+      console.log('songImage');
 
 
     });
