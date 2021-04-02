@@ -2,8 +2,10 @@ console.log("Hello, playlist");
 
 var Airtable = require('airtable');
 
+//is airtable connected
 console.log(Airtable);
 
+//connect to the specific airtable
 var base = new Airtable({apiKey: 'keyVR9gMz8aVRITLz'}).base('appU0pBS78f4EBKx2');
 
 base("playlist")
@@ -47,41 +49,29 @@ function showSongs() {
     console.log("showSongs()");
     songs.forEach((song) => {
 
-        
-      // create container for each song
-      /*var songContainer = document.createElement("div");
-      songContainer.innerText = song.fields.album_title;
-      document.body.append(songContainer);
-       
-         // add song titles
-    var artist = document.createElement("div");
-    artist.classList.add("song-title");
-    artist.innerText = song.fields.artist;
-    songContainer.append(artist);
 
-    var songImage = document.createElement("img");
-    songImage.classList.add("song-image");
-    songImage.src = song.fields.album_artwork[0].url;
-    songContainer.append(songImage);*/
-
+    // create container for each song adding new class tages, determine whether the object is in the .container or not
+    //innerText or img
     var songContainer = document.createElement("div"); 
       songContainer.classList.add("song-container")
       document.querySelector(".container").append(songContainer);
       console.log('songContainer');
       
+      // add song titles
       var songTitle = document.createElement("h1");
       songTitle.innerText = song.fields.album_title;
       songTitle.classList.add("song-title");
       songContainer.append(songTitle);
       console.log('songTitle');
 
-
+      // add artists
       var songArtist = document.createElement("h1");
       songArtist.innerText = song.fields.artist;
       songArtist.classList.add("song-artist");
       songContainer.append(songArtist);
       console.log('songArtist');
 
+      // add images
       var songImage = document.createElement("img");
       songImage.src = song.fields.album_artwork[0].url;
       songImage.classList.add("song-artwork");
