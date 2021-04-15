@@ -1,0 +1,565 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+.nav{
+    width: 100%; 
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: white;
+}
+
+.navtr{
+    border: 3px solid white; width: 100%; margin: 0; padding: 0;
+}
+.coll{
+    border: 3px solid white; width: 15%; margin: 0; padding: 1%;
+    text-align: center;
+    font-family: acumin-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 1.5em;
+cursor: pointer;
+color: white;
+}
+.blank{
+    width: 75%;
+}
+.back{
+    border: 3px solid white; width: 10%; margin: 0; padding: 1%;
+    text-align: center;
+    font-family: acumin-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-size: 1.5em;
+cursor: pointer;
+}
+
+.wel{
+    border: 3px solid white;
+    padding: 3%;
+    font-size: 5em;
+    font-family: acumin-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+    
+    
+}
+
+.wel2{
+    border: 3px solid white;
+    padding: 2%;
+    font-size: 4em;
+    font-family: acumin-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+    
+    
+}
+
+.navtr2{
+    width: 100%;
+}
+
+.catos{
+    margin-left: 4%;
+    margin-top: 2%;
+    
+    
+}
+
+.adventure{
+    display: flex;
+    font-size: 1.3em;
+    font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.comedy{
+    display: flex;
+    font-size: 1.3em;
+    font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.drama{
+    display: flex;
+    font-size: 1.3em;
+    font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.romance{
+    display: flex;
+    font-size: 1.3em;
+    font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.crime{
+    display: flex;
+    font-size: 1.3em;
+    font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.musical{
+    display: flex;
+    font-size: 1.3em;
+    font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.horror{
+    display: flex;
+    font-size: 1.3em;
+    font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.indie{
+    display: flex;
+    font-size: 1.3em;
+    font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.fantasy{
+    display: flex;
+    font-size: 1.3em;
+    font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.scifi{
+    display: flex;
+    font-size: 1.3em;
+    font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+
+
+
+.imgs{
+    margin-left: 7%;
+    display: none;
+   
+    
+}
+
+.imgs2{
+    display: none;
+    margin-left: 7%;
+    
+}
+
+.imgs3{
+    display: none;
+    margin-left: 7%;
+}
+
+.imgs4{
+    display: none;
+    margin-left: 7%;
+}
+
+.imgs5{
+    display: none;
+    margin-left: 7%;
+}
+
+.imgs6{
+    display: none;
+    margin-left: 7%;
+}
+
+.imgs7{
+    display: none;
+    margin-left: 7%;
+}
+
+.imgs8{
+    display: none;
+    margin-left: 7%;
+}
+
+.imgs9{
+    display: none;
+    margin-left: 7%;
+}
+
+.imgs10{
+    display: none;
+    margin-left: 7%;
+}
+
+
+
+
+.hello{
+    color: white;
+    font-size: 7em;
+    text-align: left;
+    margin-top: 25%;
+    margin-left: 5%;
+    position: relative;
+
+    font-family: acumin-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+
+
+.hi{
+    color: white;
+    font-size: 7em;
+    text-align: left;
+    margin-left: 5%;
+    position: relative;
+
+    font-family: acumin-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+
+
+.nav1{
+    width: 100%; 
+    border-collapse: collapse;
+    border-spacing: 0;
+    position: relative;
+}
+
+.navtr1{
+    border: 3px solid white; width: 100%; margin: 0; padding: 0;
+}
+.coll1{
+    border: 3px solid white; width: 15%; margin: 0; padding: 1%;
+    text-align: center;
+    font-family: vortice-concept, sans-serif;
+font-style: normal;
+font-weight: 400;
+color: white;
+}
+.blank1{
+    width: 75%;
+}
+.back1{
+    border: 3px solid white; width: 10%; margin: 0; padding: 1%;
+    text-align: center;
+    font-family: vortice-concept, sans-serif;
+font-style: normal;
+font-weight: 400;
+color: white;
+}
+
+
+
+h1{
+    position: relative;
+    font-family: acumin-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+   
+   
+}
+
+.films-container{
+    text-align: center;
+    padding: 2%;
+    border: white solid 0.5px;
+    color: white;
+    margin: 0% !important;
+    position: relative;
+    font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+   
+
+    
+
+
+}
+
+
+
+
+
+.filter{
+    border: 3px white solid;
+    color: white;
+    width: 100%;
+    margin-top: 5%;
+    position: relative;
+    padding: 3%;
+    font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+}
+
+h2{
+    font-family: acumin-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.fe{
+    margin-top: 3%;
+    margin-left: 4%;
+   
+}
+.watch{
+    margin-top: 3%;
+    margin-left: 4%;
+}
+.guide, .dir{
+    font-size: 2em;
+    margin-left: 4%;
+    margin-top: 1%;
+    font-family: acumin-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.exp, .ma{
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.shot{
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+.reset{
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.first, .second, .third, .forth{
+    margin-top: 3%;
+}
+
+.films-director{
+   display: none;
+    color: white;
+    font-style: italic;
+}
+
+.films-date{
+    display: none;
+    color: white;
+}
+
+.g-container{
+
+    position: relative;
+   
+}
+
+.gallery-container{
+    padding: 3%;
+ 
+    margin: 1.1%;
+    display: inline-block;
+    width: 10%;
+    position: relative;
+
+
+  }
+
+
+  .filter2{
+      display: flex;
+      padding: 2%;
+      border: 3px white solid;
+      
+  }
+
+ 
+
+  .reco{
+      margin-left: 1%;
+  }
+
+
+@media screen and (max-width: 480px) {
+    
+    .wel {
+        border: 3px solid white;
+        padding: 10%;
+        font-size: 3em;
+        font-family: acumin-pro, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+        
+    }
+    .back,.coll {
+        border: 3px solid white;
+  
+        margin: 0;
+        padding: 5%;
+        text-align: center;
+        font-family: acumin-pro, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 0.5em;
+        cursor: pointer;
+    }
+
+    .catos {
+        margin-left: 4%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+
+    .hello{
+        font-size: 3em;
+    }
+
+    .hi{
+        font-size: 3em;
+    }
+
+    .guide, .dir {
+        font-size: 1em;
+    }
+
+    .watch, .shot, .exp,.reset{
+        font-size: 0.5em;
+    }
+
+    .fe, .ma{
+        font-size: 0.5em;
+    }
+
+    h1.films-title {
+        font-size: 15px;
+    }
+    .films-director {
+        font-size: 15px;
+    }
+    
+    
+
+
+} 
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .wel {
+        border: 3px solid white;
+        padding: 10%;
+        font-size: 4em;
+        font-family: acumin-pro, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+    }
+    .back,.coll {
+        border: 3px solid white;
+        width: 10%;
+        margin: 0;
+        padding: 3%;
+        text-align: center;
+        font-family: acumin-pro, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 0.5em;
+        cursor: pointer;
+    }
+    .reco {
+        margin-left: 1%;
+        font-size: 8px;
+    }
+
+    .catos{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .hello{
+        font-size: 3em;
+    }
+
+    .hi{
+        font-size: 3em;
+    }
+
+    .guide, .dir {
+        font-size: 1em;
+    }
+
+    .watch, .shot, .exp,.reset{
+        font-size: 0.5em;
+    }
+
+    .fe, .ma{
+        font-size: 0.5em;
+    }
+
+    h1.films-title {
+        font-size: 15px;
+    }
+
+    .films-director {
+        font-size: 15px;
+    }
+
+
+   
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .filter2 {
+        display: flex;
+        padding: 3%;
+        border: 3px white solid;
+    }
+    .back, .coll {
+        border: 3px solid white;
+        width: 10%;
+        margin: 0;
+        padding: 1%;
+        text-align: center;
+        font-family: acumin-pro, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1em;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    
+} 

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Comedy</title>
+
+    <!-- add reset to create consistency between browsers and devices. -->
+    <link rel="stylesheet" type="text/css" href="./reset.css">
+
+    <link rel="stylesheet" type="text/css" href="./main.css">
+
+    <!-- add link to your javascript. be sure it includes "defer" -->
+    <script type="text/javascript" src="./films/airtable.browser.js" defer></script>
+    <script type="text/javascript" src="./gallery.js" defer></script>
+    <link rel="stylesheet" href="https://use.typekit.net/pbi1jdi.css">
+    <style>
+           body{
+            border: 10px solid white;
+            background-color: black;
+        }
+
+        img{
+            width: 17vw;
+            height: 9vw;
+            margin-bottom: 5%;
+ 
+            position: relative;
+            margin: 0 auto;
+            
+}a{
+    text-decoration: none;
+    color: white;
+}
+
+span{
+    border: white dotted 1px;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    span {
+        border: white dotted 1px;
+        margin-left: 5px;
+        cursor: pointer;
+        font-size: 6px;
+        padding: 0;
+    }
+
+    .coll1{
+        display: none;
+        width: 3%;
+    }
+
+    .reco{
+        display: none;
+    }
+} 
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    
+
+    span {
+        border: white dotted 1px;
+        margin-left: 10px;
+        cursor: pointer;
+        font-size: 8px;
+        padding: 0;
+    }
+
+    
+}
+    </style>
+</head>
+
+<body>
+    <table class="nav1" >
+        <tr class="navtr1" >
+            <td class="coll" style="color: black;" >
+                GALLERY 
+            </td>
+            <td class="blank1" >
+                
+            </td>
+            <td class="back" >
+                <a href="./index.html">BACK</a>
+            </td>
+
+            <tr class="navtr2">
+                <td class="wel" colspan="3" style="color: white;">
+                    GALLERY
+                </td>
+            </tr>
+            
+    </table>
+    <div class="filter2" style="color: white;">
+        <div class="reco">
+            Contributor:
+        </div>
+        
+        <div class="maya">
+            <span class="maya2">Maya</span>
+        </div>
+        <div class="sydney">
+            <span class="sydney2">
+                Sydney
+            </span>
+        </div>
+        <div class="alex">
+            <span class="alex2">
+                Alex
+            </span>
+        </div>
+        <div class="ava">
+            <span class="ava2">
+                Ava
+            </span>
+        </div>
+        <div class="liam">
+            <span class="liam2">
+                Liam
+            </span>
+        </div>
+        <div class="charlotte">
+            <span class="charlotte2">
+                Charlotte
+            </span>
+        </div>
+        <div class="jenna">
+           <span class="jenna2">
+            Jenna
+           </span>
+        </div>
+        <div class="all">
+            <span class="allpics" >View All</span>
+        </div>
+    </div>
+    <div class="all">
+        <div class="g-container">
+        
+        </div>
+        
+    </div>
+    
+
+
+
+
+
+</body>
+
+
+</html>
