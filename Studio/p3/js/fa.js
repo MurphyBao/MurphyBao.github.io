@@ -134,11 +134,15 @@ base("films")
         filmsContainer.classList.add(personal);
       })
 
+ 
       var watchFilms = document.querySelector('.watch');
       watchFilms.addEventListener("click", function(){
 
         if (filmsContainer.classList.contains("watch")){
-          filmsContainer.style.background = "red";
+          filmsContainer.style.background = "blue";
+          watchFilms.style.background = "blue";
+          shotFilms.style.background = "none";
+          expFilms.style.background = "none";
         }  else {filmsContainer.style.background = "none";
       }
       })
@@ -148,6 +152,9 @@ base("films")
 
         if (filmsContainer.classList.contains("fav")){
           filmsContainer.style.background = "red";
+          shotFilms.style.background = "red";
+          watchFilms.style.background = "none";
+          expFilms.style.background = "none";
         }  else {filmsContainer.style.background = "none";
       }
       })
@@ -155,7 +162,10 @@ base("films")
       expFilms.addEventListener("click", function(){
 
         if (filmsContainer.classList.contains("exp")){
-          filmsContainer.style.background = "red";
+          filmsContainer.style.background = "orange";
+          expFilms.style.background = "orange";
+          watchFilms.style.background = "none";
+          shotFilms.style.background = "none";
         }  else {filmsContainer.style.background = "none";
       }
       })
@@ -163,7 +173,79 @@ base("films")
       var resetFilms = document.querySelector('.reset');
       resetFilms.addEventListener("click", function(){
         filmsContainer.style.background = "none";
+        expFilms.style.background = "none";
+          watchFilms.style.background = "none";
+          shotFilms.style.background = "none";
+      })
+
+      var waFilms = document.querySelector('.watch1');
+      waFilms.addEventListener("click", function(){
+
+        if (filmsContainer.classList.contains("watch")){
+          filmsContainer.style.background = "blue";
+          waFilms.style.background = "blue";
+          shFilms.style.background = "none";
+          eFilms.style.background = "none";
+        }  else {filmsContainer.style.background = "none";
+      }
+      })
+
+      var shFilms = document.querySelector('.shot1');
+      shFilms.addEventListener("click", function(){
+
+        if (filmsContainer.classList.contains("fav")){
+          filmsContainer.style.background = "red";
+          waFilms.style.background = "none";
+          shFilms.style.background = "red";
+          eFilms.style.background = "none";
+        }  else {filmsContainer.style.background = "none";
+      }
+      })
+      var eFilms = document.querySelector('.exp1');
+      eFilms.addEventListener("click", function(){
+
+        if (filmsContainer.classList.contains("exp")){
+          filmsContainer.style.background = "orange";
+          waFilms.style.background = "none";
+          shFilms.style.background = "none";
+          eFilms.style.background = "orange";
+        }  else {filmsContainer.style.background = "none";
+      }
+      })
+
+      var rFilms = document.querySelector('.reset1');
+      rFilms.addEventListener("click", function(){
+        filmsContainer.style.background = "none";
+        waFilms.style.background = "none";
+          shFilms.style.background = "none";
+          eFilms.style.background = "none";
+
       })
       
     });
   }
+  var resetFilms = document.querySelector('.reset');
+var watchFilms = document.querySelector('.watch');
+var shotFilms = document.querySelector('.shot');
+var expFilms = document.querySelector('.exp');
+var guideBot = document.querySelector('.guide');
+var close = document.querySelector('.close');
+
+guideBot.addEventListener("click", function(){
+  watchFilms.style.display = "block";
+  shotFilms.style.display = "block";
+  expFilms.style.display = "block";
+  resetFilms.style.display = "block";
+  close.style.display = "block";
+      
+      })
+
+      close.addEventListener("click", function(){
+        watchFilms.style.display = "none";
+        shotFilms.style.display = "none";
+        expFilms.style.display = "none";
+        resetFilms.style.display = "none";
+        close.style.display = "none";
+        
+            
+            })

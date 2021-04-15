@@ -80,7 +80,13 @@ base("films")
 
         if (galleryContainer.classList.contains("maya")){
             galleryContainer.style.display = "inline-block";
-           
+            mayaFilms.style.color = "yellow";
+            syFilms.style.color = "white";
+            alFilms.style.color = "white";
+            avaFilms.style.color = "white";
+            liFilms.style.color = "white";
+            chFilms.style.color = "white";
+            jeFilms.style.color = "white";
         }  else {galleryContainer.style.display = "none";
       }
       })
@@ -90,7 +96,13 @@ base("films")
 
         if (galleryContainer.classList.contains("sydney")){
             galleryContainer.style.display = "inline-block";
-           
+            mayaFilms.style.color = "white";
+            syFilms.style.color = "yellow";
+            alFilms.style.color = "white";
+            avaFilms.style.color = "white";
+            liFilms.style.color = "white";
+            chFilms.style.color = "white";
+            jeFilms.style.color = "white";
         }  else {galleryContainer.style.display = "none";
       }
       })
@@ -100,7 +112,13 @@ base("films")
 
         if (galleryContainer.classList.contains("alex")){
             galleryContainer.style.display = "inline-block";
-           
+            mayaFilms.style.color = "white";
+            syFilms.style.color = "white";
+            alFilms.style.color = "yellow";
+            avaFilms.style.color = "white";
+            liFilms.style.color = "white";
+            chFilms.style.color = "white";
+            jeFilms.style.color = "white";
         }  else {galleryContainer.style.display = "none";
       }
       })
@@ -110,7 +128,13 @@ base("films")
 
         if (galleryContainer.classList.contains("ava")){
             galleryContainer.style.display = "inline-block";
-           
+            mayaFilms.style.color = "white";
+            syFilms.style.color = "white";
+            alFilms.style.color = "white";
+            avaFilms.style.color = "yellow";
+            liFilms.style.color = "white";
+            chFilms.style.color = "white";
+            jeFilms.style.color = "white";
         }  else {galleryContainer.style.display = "none";
       }
       })
@@ -120,7 +144,13 @@ base("films")
 
         if (galleryContainer.classList.contains("liam")){
             galleryContainer.style.display = "inline-block";
-           
+            mayaFilms.style.color = "white";
+            syFilms.style.color = "white";
+            alFilms.style.color = "white";
+            avaFilms.style.color = "white";
+            liFilms.style.color = "yellow";
+            chFilms.style.color = "white";
+            jeFilms.style.color = "white";
         }  else {galleryContainer.style.display = "none";
       }
       })
@@ -130,7 +160,13 @@ base("films")
 
         if (galleryContainer.classList.contains("charlotte")){
             galleryContainer.style.display = "inline-block";
-           
+            mayaFilms.style.color = "white";
+            syFilms.style.color = "white";
+            alFilms.style.color = "white";
+            avaFilms.style.color = "white";
+            liFilms.style.color = "white";
+            chFilms.style.color = "yellow";
+            jeFilms.style.color = "white";
         }  else {galleryContainer.style.display = "none";
       }
       })
@@ -140,7 +176,13 @@ base("films")
 
         if (galleryContainer.classList.contains("jenna")){
             galleryContainer.style.display = "inline-block";
-           
+            mayaFilms.style.color = "white";
+            syFilms.style.color = "white";
+            alFilms.style.color = "white";
+            avaFilms.style.color = "white";
+            liFilms.style.color = "white";
+            chFilms.style.color = "white";
+            jeFilms.style.color = "yellow";
         }  else {galleryContainer.style.display = "none";
       }
       })
@@ -148,6 +190,13 @@ base("films")
       var allFilms = document.querySelector('.allpics');
       allFilms.addEventListener("click", function(){
         galleryContainer.style.display = "inline-block";
+        mayaFilms.style.color = "white";
+            syFilms.style.color = "white";
+            alFilms.style.color = "white";
+            avaFilms.style.color = "white";
+            liFilms.style.color = "white";
+            chFilms.style.color = "white";
+            jeFilms.style.color = "white";
       })
 
 

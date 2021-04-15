@@ -1,4 +1,3 @@
-
 console.log("Hello, films");
 
 var Airtable = require('airtable');
@@ -68,7 +67,10 @@ base("films")
       var horrorGenre = films.fields.genre;
       horrorGenre.forEach(function(genre){
         filmsContainer.classList.add(genre);
-      });
+      })
+
+
+
 
 
       var filmsImage = document.createElement("img");
@@ -91,17 +93,21 @@ base("films")
       filmsContainer.append(filmsDate);
       console.log('filmsDate');
 
-
+    
 
       titleFilter();
 
       function titleFilter() {
-        if (filmsContainer.classList.contains("drama")) {
+        if (filmsContainer.classList.contains("horror")) {
           filmsContainer.style.display = "block";
         } else {
           filmsContainer.style.display = "none";
         }
       }
+
+     
+
+      
 
       filmsTitle.onclick = function(){
         filmsTitle.style.cursor = "pointer";
@@ -134,7 +140,9 @@ base("films")
         filmsContainer.classList.add(personal);
       })
 
- 
+  
+
+       
       var watchFilms = document.querySelector('.watch');
       watchFilms.addEventListener("click", function(){
 
@@ -221,31 +229,32 @@ base("films")
           eFilms.style.background = "none";
 
       })
-      
+
     });
   }
+
   var resetFilms = document.querySelector('.reset');
-var watchFilms = document.querySelector('.watch');
-var shotFilms = document.querySelector('.shot');
-var expFilms = document.querySelector('.exp');
-var guideBot = document.querySelector('.guide');
-var close = document.querySelector('.close');
-
-guideBot.addEventListener("click", function(){
-  watchFilms.style.display = "block";
-  shotFilms.style.display = "block";
-  expFilms.style.display = "block";
-  resetFilms.style.display = "block";
-  close.style.display = "block";
-      
-      })
-
-      close.addEventListener("click", function(){
-        watchFilms.style.display = "none";
-        shotFilms.style.display = "none";
-        expFilms.style.display = "none";
-        resetFilms.style.display = "none";
-        close.style.display = "none";
+  var watchFilms = document.querySelector('.watch');
+  var shotFilms = document.querySelector('.shot');
+  var expFilms = document.querySelector('.exp');
+  var guideBot = document.querySelector('.guide');
+  var close = document.querySelector('.close');
+  
+  guideBot.addEventListener("click", function(){
+    watchFilms.style.display = "block";
+    shotFilms.style.display = "block";
+    expFilms.style.display = "block";
+    resetFilms.style.display = "block";
+    close.style.display = "block";
         
-            
-            })
+        })
+  
+        close.addEventListener("click", function(){
+          watchFilms.style.display = "none";
+          shotFilms.style.display = "none";
+          expFilms.style.display = "none";
+          resetFilms.style.display = "none";
+          close.style.display = "none";
+          
+              
+              })

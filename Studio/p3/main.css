@@ -227,7 +227,7 @@ font-style: normal;
     color: white;
     font-size: 7em;
     text-align: left;
-    margin-top: 25%;
+    margin-top: 32%;
     margin-left: 5%;
     position: relative;
 
@@ -237,14 +237,13 @@ font-style: normal;
 }
 
 
-
 .hi{
     color: white;
     font-size: 7em;
     text-align: left;
     margin-left: 5%;
     position: relative;
-
+margin-bottom: 1%;
     font-family: acumin-pro, sans-serif;
 font-weight: 700;
 font-style: normal;
@@ -303,6 +302,7 @@ font-style: normal;
     font-family: acumin-pro, sans-serif;
 font-weight: 400;
 font-style: normal;
+
    
 
     
@@ -311,21 +311,30 @@ font-style: normal;
 }
 
 
-
+.container{
+    margin-top: 5%;
+}
 
 
 .filter{
     border: 3px white solid;
     color: white;
-    width: 100%;
+    width: 15vw;
     margin-top: 5%;
     position: relative;
     padding: 3%;
     font-family: acumin-pro, sans-serif;
 font-weight: 400;
 font-style: normal;
+position: fixed;
+z-index: 10000;
+right: 0;
+background-color: black;
+
+
 
 }
+
 
 h2{
     font-family: acumin-pro, sans-serif;
@@ -341,6 +350,8 @@ font-style: normal;
 .watch{
     margin-top: 3%;
     margin-left: 4%;
+    text-align: center;
+
 }
 .guide, .dir{
     font-size: 2em;
@@ -354,21 +365,104 @@ font-style: normal;
 .exp, .ma{
     margin-left: 4%;
     margin-top: 1%;
+    text-align: center;
 }
 
 .shot{
     margin-left: 4%;
     margin-top: 3%;
+    text-align: center;
 }
 
 .reset{
     margin-left: 4%;
     margin-top: 1%;
+    text-align: center;
 }
 
 .first, .second, .third, .forth{
     margin-top: 3%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.filter1{
+    border: 3px white solid;
+    color: white;
+    width: 94%;
+    margin-top: 5%;
+    position: relative;
+    padding: 3%;
+    font-family: acumin-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+position: relative;
+z-index: 10000;
+right: 0;
+background-color: black;
+
+
+
+}
+
+.watch1{
+    margin-top: 3%;
+    margin-left: 4%;
+    text-align: center;
+
+}
+.guide1, .dir{
+    font-size: 2em;
+    margin-left: 4%;
+    margin-top: 1%;
+    font-family: acumin-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.exp1, .ma{
+    margin-left: 4%;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.shot1{
+    margin-left: 4%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.reset1{
+    margin-left: 4%;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.first1, .second1, .third1, .forth1{
+    margin-top: 3%;
+}
+
+
+
+
+
+
 
 .films-director{
    display: none;
@@ -470,6 +564,12 @@ font-style: normal;
     .films-director {
         font-size: 15px;
     }
+
+    .adimg1{
+        display: none;
+    }
+
+    
     
     
 
@@ -535,6 +635,14 @@ font-style: normal;
     .films-director {
         font-size: 15px;
     }
+.filter{
+    display: none;
+}
+
+.adimg1{
+display: none;}
+
+
 
 
    
@@ -558,8 +666,30 @@ font-style: normal;
         font-size: 1em;
         cursor: pointer;
     }
+
+    .guide{
+        font-size: 1em;
+    }
+
+    .filter{
+        padding: 2%;
+    }
+
+    .exp, .shot, .watch, .reset{
+        font-size: 0.8em;
+    }
+
+    .filter1{
+        display: none;
+    }
+    img:hover{
+        transform:scale(1)
+    }
+    
 }
 
 @media screen and (min-width: 1025px) {
-    
+    .filter1{
+        display: none;
+    }
 } 
