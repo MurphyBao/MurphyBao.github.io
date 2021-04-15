@@ -573,6 +573,13 @@ font-style: normal;
         font-size: 1em;
         display: none;
     }
+
+    h2 {
+        font-family: acumin-pro, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 0.6em;
+    }
     
     
     
@@ -620,7 +627,12 @@ font-style: normal;
         font-size: 3em;
     }
 
-    
+    h2 {
+        font-family: acumin-pro, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 0.6em;
+    }
 
     .watch, .shot, .exp,.reset{
         font-size: 0.5em;
@@ -648,6 +660,8 @@ font-style: normal;
 .adimg1{
 display: none;
 }
+
+
 
 
 
