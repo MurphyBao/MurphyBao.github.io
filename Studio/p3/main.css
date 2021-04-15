@@ -546,9 +546,7 @@ font-style: normal;
         font-size: 3em;
     }
 
-    .guide, .dir {
-        font-size: 1em;
-    }
+  
 
     .watch, .shot, .exp,.reset{
         font-size: 0.5em;
@@ -568,7 +566,13 @@ font-style: normal;
     .adimg1{
         display: none;
     }
-
+    .filter{
+        display: none;
+    }
+    .guide {
+        font-size: 1em;
+        display: none;
+    }
     
     
     
@@ -616,9 +620,7 @@ font-style: normal;
         font-size: 3em;
     }
 
-    .guide, .dir {
-        font-size: 1em;
-    }
+    
 
     .watch, .shot, .exp,.reset{
         font-size: 0.5em;
@@ -638,9 +640,14 @@ font-style: normal;
 .filter{
     display: none;
 }
+.guide {
+    font-size: 1em;
+    display: none;
+}
 
 .adimg1{
-display: none;}
+display: none;
+}
 
 
 
