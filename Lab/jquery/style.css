@@ -1,6 +1,49 @@
-div{
-    width: 60px;
-    height: 60px;
-    margin: 5px;
-    float: left;
-  }
+#recipe{
+    background-color: rgb(255, 199, 94);
+    width: 20%;
+    margin: 0 auto;
+    border: rgb(255, 133, 133);
+    border-radius: 20px;
+    font-size: 5em;
+    margin-top: 0 !important;
+    
+}
+
+h2{
+    font-size: 3em;
+}
+
+
+
+.first{
+    width: 30%;
+    position: relative;
+    border: 2px solid pink;
+    margin: 1%;
+    padding: 1%;
+    background: white;
+}
+
+.second{
+    width: 30%;
+    position: relative;
+    border: 2px solid pink;
+    margin: 1%;
+    padding: 1%;
+    background: white;
+}
+
+.all{
+    display: flex;
+    left: 0%;
+    position: relative;
+}
+
+body {
+    
+      background-image: url(./pattern_japan.jpg);
+    
+      background-position: 0px 0px;
+    
+    }
+    

@@ -7,14 +7,97 @@
   <title>Document</title>
   <link rel="stylesheet" href ="style.css">
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-  <script src="scripts.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/SuperScrollorama/1.0.3/jquery.superscrollorama.min.js" integrity="sha512-tJWbOez4ZxDFFfFP74cu3cMNB1Qgdq1ar05T6kEtSUpD6TlLd/MvmcE/0V0lA4OgpRJtZeM+TBOwYTSLKFP6BA==" crossorigin="anonymous"></script>
+  <script src="./jquery.min.js"></script>
+ 
+<script type="text/javascript" src="./jquery.backgroundScroll.js"></script>
+<script type="text/javascript" src="./main.js"></script>
+<script>
+    $('#pattern').backgroundScroll({
+        pattern: true,
+        img: 'img/pattern.jpg',
+        speed: 0.3,
+        directionX: 'right',
+        directionY: 'bottom',
+        imageWidth: 600,
+        imageHeight: 600
+    });
+</script>
+  
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <h1>Hello World</h1>
+  <h1 id="recipe" style="position: relative; text-align: center;">Recipes</h1>
   <span id="result">&nbsp;</span>
   <div style="background-color:blue;"></div>
   <div style="background-color:rgb(15,99,30);"></div>
   <div style="background-color:#123456;"></div>
   <div style="background-color:#f11;"></div>
+
+
+  
+<div class="all">
+  <div class="first">
+    <img src="./r1/WechatIMG1479.jpeg" style="width: 80%; left: 10%; position: relative;">
+    <div style= " text-align: center; margin-top: 0; " class="allreci" >
+      <h2 class="mush" style="cursor: pointer;">Fried Pleurotus Eryngii</h2>
+      
+    </div>
+    <div class="reci1" style="display: none;" >
+      <div class="ing"></div>
+    
+    <div class="pro"></div>
+    <div class="pro2"></div>
+    <div class="pro3"></div>
+    <div class="pro4"></div>
+    <div class="pro5"></div>
+    <div class="pro51"></div>
+    </div>
+    
+  </div>
+
+
+  <div class="second">
+    <img src="./r1/图片1.png" style="width: 80%; left: 10%; position: relative;">
+    <div style= " text-align: center; margin-top: 0; " class="allreci2" >
+      <h2 class="cheese" style="cursor: pointer;">Classic Cheese Cake</h2>
+      
+    </div>
+    <div class="reci2" style="display: none;">
+      <div class="ing2"></div>
+    
+    <div class="pro6"></div>
+    <div class="pro7"></div>
+    <div class="pro8"></div>
+    <div class="pro9"></div>
+    <div class="pro10"></div>
+    <div class="pro11"></div>
+    </div>
+    
+  </div>
+  
+  <div class="second">
+    <img src="./r1/cookie.jpeg" style="width: 80%; left: 10%; position: relative;">
+    <div style= " text-align: center; margin-top: 0; " class="allreci2" >
+      <h2 class="choco" style="cursor: pointer;" >Chocolate Cookies</h2>
+      
+    </div>
+    <div class="reci3" style="display: none;">
+      <div class="ing3"></div>
+    
+    <div class="pro12"></div>
+    <div class="pro13"></div>
+    <div class="pro14"></div>
+    <div class="pro15"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+
+</script>
+
+
+
 </body>
 </html>
