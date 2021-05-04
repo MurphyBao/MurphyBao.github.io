@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OREO GENERATOR</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <link rel="stylesheet" href ="./style.css">
+
+
+</head>
+
+<body>
+    <div class="title">
+       
+    </div>
+    <div class="text">
+        <div class="line1">
+            OREO 
+        </div>
+        <div class="line2">
+             GENERATOR
+        </div>
+        <div class="showTextBox">
+            
+            <textarea name="" id="" cols="30" rows=""></textarea>
+            <button class="reset ">Reset</button>
+            <button id="btn" >Save Oreo</button>
+        </div>
+    </div>
+    <div class="box" id="imgDiv">
+
+        <img src="./oreo/顶.png" class="top" alt="">
+        <img src="./oreo/底.png" class="bottom" alt="">
+        
+    </div>
+    
+    <script>
+        // $(function () {
+        let keyCodeMap = {
+            "0": "none",
+            "6": "back",
+            "8": "backspace",
+            "9": "tab",
+            "13": "enter",
+            "16": "shift",
+            "17": "ctrl",
+            "18": "alt",
+            "19": "pause",
+            "20": "capslock",
+            "27": "escape",
+            "32": "space",
+            "33": "pageup",
+            "34": "pagedown",
+            "35": "end",
+            "36": "home",
+            "37": "left",
+            "38": "up",
+            "39": "right",
+            "40": "down",
+            "41": "select",
+            "45": "insert",
+            "46": "Delete",
+            "48": "0",
+            "49": "1",
+            "50": "2",
+            "51": "3",
+            "52": "4",
+            "53": "5",
+            "54": "6",
+            "55": "7",
+            "56": "8",
+            "57": "9",
+            "65": "a",
+            "66": "b",
+            "67": "c",
+            "68": "d",
+            "69": "e",
+            "70": "f",
+            "71": "g",
+            "72": "h",
+            "73": "i",
+            "74": "j",
+            "75": "k",
+            "76": "l",
+            "77": "m",
+            "78": "n",
+            "79": "o",
+            "80": "p",
+            "81": "q",
+            "82": "r",
+            "83": "s",
+            "84": "t",
+            "85": "u",
+            "86": "v",
+            "87": "w",
+            "88": "x",
+            "89": "y",
+            "90": "z",
+            "96": "num0",
+            "97": "num1",
+            "98": "num2",
+            "99": "num3",
+            "100": "num4",
+            "101": "num5",
+            "102": "num6",
+            "103": "num7",
+            "104": "num8",
+            "105": "num9",
+            "106": "*",
+            "107": "+",
+            "109": "-",
+            "110": "numdel",
+            "111": "/",
+            "112": "f1",
+            "113": "f2",
+            "114": "f3",
+            "115": "f4",
+            "116": "f5",
+            "117": "f6",
+            "118": "f7",
+            "119": "f8",
+            "120": "f9",
+            "121": "f10",
+            "122": "f11",
+            "123": "f12",
+            "144": "numlock",
+            "145": "scrolllock",
+            "186": "semicolon",
+            "187": "=",
+            "188": "comma",
+            "189": "dash",
+            "190": "period",
+            "191": "forwardslash",
+            "192": "grave",
+            "219": "openbracket",
+            "220": "backslash",
+            "221": "closebracket",
+            "222": "quote",
+            "1000": "dpadLeft",
+            "1001": "dpadRight",
+            "1003": "dpadUp",
+            "1004": "dpadDown",
+            "1005": "dpadCenter"
+        }
+        let keyboardOperation = [];
+        function init() {
+            let arr = [];
+            let spreadDistance = ($('.box img').length + 1.5) * 15
+            $('.box img').each((index, item) => {
+                if ($(item).hasClass('newImage') || $(item).hasClass('bottom')) {
+                    spreadDistance -= 25;
+                    $(item).css('bottom', spreadDistance);
+                } else {
+                    spreadDistance -= 5;
+                    $(item).css('bottom', spreadDistance);
+                }
+
+                arr.push($('.box img').length - index * 15);
+                $(item).css('zIndex', $('img').length - index);
+            })
+            console.log(arr);
+        }
+        init();
+        $('.showTextBox .reset').click(() => {
+            keyboardOperation = [];
+            $('.showTextBox textarea').val('');
+            $('.newImage').remove();
+            $('.newSandwich').remove();
+            init();
+        })
+        $(document).keyup((e) => {
+            console.log(e.keyCode);
+            let textarea = $('.showTextBox textarea');
+            let afterHtml = "";
+
+            if (e.keyCode == 8) {
+                e.returnValue = false;
+                console.log(keyboardOperation.pop());
+                textarea.val(keyboardOperation.join('-'));
+                if ($('.bottom').prev().hasClass('top')) {
+                    $('.top').prev().remove();
+                } else {
+                    $('.bottom').prev().remove();
+                }
+            } else if ((e.keyCode >= 48 && e.keyCode <= 57) || (e.keyCode >= 97 && e.keyCode <= 105)) {   //Identify Numbers
+                if ($('.top').prevAll().length >= 1) {
+                    e.returnValue = false;
+                    alert("One topping for each oreo!")
+                } else {
+                    keyboardOperation.push(keyCodeMap[e.keyCode]);          //Typing Record
+                    afterHtml = `<img src="./oreo/t${Math.ceil(Math.random() * 9)}.png" class="newSandwich" alt="图片加载失败,请重新刷新页面后尝试！">`;
+                }
+            } else {
+                keyboardOperation.push(keyCodeMap[e.keyCode]);          //Typing Record
+                afterHtml = `<img src="./oreo/${Math.ceil(Math.random() * 26)}.png" class="newImage" alt="图片加载失败,请重新刷新页面后尝试！">`;
+            }
+
+            let Biscuits = $('.box img');
+            if (Biscuits.length <= 11) {
+                if ($(afterHtml).hasClass('newSandwich')) {
+                    $('.top').before(afterHtml);
+                } else {
+                    $('.top').after(afterHtml);
+                }
+
+                textarea.val(keyboardOperation.join('-'));
+            } else {
+                if (e.keyCode != 12) {  //Delete function
+                    alert('Your oreo has ' + Biscuits.length + ' layers,you can not eat it in one bite!');
+                } else {
+
+                }
+            }
+
+            init();
+        })
+        // })
+
+
+        $(document).ready(function(){
+    // canvas生成图片
+        $("#btn").on("click", function () {
+            var getPixelRatio = function (context) { // 获取设备的PixelRatio
+                var backingStore = context.backingStorePixelRatio ||
+                    context.webkitBackingStorePixelRatio ||
+                    context.mozBackingStorePixelRatio ||
+                    context.msBackingStorePixelRatio ||
+                    context.oBackingStorePixelRatio ||
+                    context.backingStorePixelRatio || 0.5;
+                return (window.devicePixelRatio || 0.5) / backingStore;
+            };
+            //生成的图片名称
+            var imgName = "cs.jpg";
+            var shareContent = document.getElementById("imgDiv");
+            var width = shareContent.offsetWidth;
+            var height = shareContent.offsetHeight;
+            var canvas = document.createElement("canvas");
+            var context = canvas.getContext('2d');
+            var scale = getPixelRatio(context); //将canvas的容器扩大PixelRatio倍，再将画布缩放，将图像放大PixelRatio倍。
+            canvas.width = width * scale;
+            canvas.height = height * scale;
+            canvas.style.width = width + 'px';
+            canvas.style.height = height + 'px';
+            context.scale(scale, scale);
+
+            var opts = {
+                scale: scale,
+                canvas: canvas,
+                width: width,
+                height: height,
+                dpi: window.devicePixelRatio
+            };
+            html2canvas(shareContent, opts).then(function (canvas) {
+                context.imageSmoothingEnabled = false;
+                context.webkitImageSmoothingEnabled = false;
+                context.msImageSmoothingEnabled = false;
+                context.imageSmoothingEnabled = false;
+                var dataUrl = canvas.toDataURL('image/jpeg', 1.0);
+                dataURIToBlob(imgName, dataUrl, callback);
+            });
+        });
+})
+    
+
+        // edited from https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toBlob#Polyfill
+       var dataURIToBlob =  function (imgName, dataURI, callback) {
+            var binStr = atob(dataURI.split(',')[1]),
+                len = binStr.length,
+                arr = new Uint8Array(len);
+
+            for (var i = 0; i < len; i++) {
+                arr[i] = binStr.charCodeAt(i);
+            }
+
+            callback(imgName, new Blob([arr]));
+        }
+
+        var callback = function (imgName, blob) {
+            var triggerDownload = $("<a>").attr("href", URL.createObjectURL(blob)).attr("download", imgName).appendTo("body").on("click", function () {
+                if (navigator.msSaveBlob) {
+                    return navigator.msSaveBlob(blob, imgName);
+                }
+            });
+            triggerDownload[0].click();
+            triggerDownload.remove();
+        };
+
+    </script>
+</body>
+
+</html>
