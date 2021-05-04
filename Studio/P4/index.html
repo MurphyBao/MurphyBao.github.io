@@ -26,8 +26,10 @@
         <div class="showTextBox">
             
             <textarea name="" id="" cols="30" rows=""></textarea>
-            <button class="reset ">Reset</button>
+            <button class="reset ">Redo</button>
+            <button class="bg" onclick="generate();">Add Style</button>
             <button id="btn" >Save Oreo</button>
+            
         </div>
     </div>
     <div class="box" id="imgDiv">
@@ -38,6 +40,48 @@
     </div>
     
     <script>
+
+function generate() {
+
+var hexValues = ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e"];
+
+function populate(a) {
+  for ( var i = 0; i < 6; i++ ) {
+    var x = Math.round( Math.random() * 14 );
+    var y = hexValues[x];
+    a += y;
+  }
+  return a;
+}
+
+var newColor1 = populate('#');
+var newColor2 = populate('#');
+var newColor3 = populate('#');
+var angle = Math.round( Math.random() * 360 );
+
+var gradient = "linear-gradient(" + angle + "deg, " + newColor1 + ", " + newColor2 + ")";
+
+document.getElementById("imgDiv").style.background = gradient;
+    document.getElementById("imgDiv").style.color = newColor3 ;
+    
+
+
+}
+
+
+var rese=document.getElementsByClassName("reset")[0];
+rese.onclick = function(){
+    document.getElementById("imgDiv").style.background = "white";
+}
+
+
+
+
+
+
+
+
+
         // $(function () {
         let keyCodeMap = {
             "0": "none",
@@ -287,6 +331,8 @@
             triggerDownload[0].click();
             triggerDownload.remove();
         };
+
+
 
     </script>
 </body>

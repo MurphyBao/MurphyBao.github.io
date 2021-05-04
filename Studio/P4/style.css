@@ -101,6 +101,24 @@ background-color: aliceblue;
 color: black;
 }
 
+.bg{
+    margin-left: 2%;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    transition: all 0.3s linear;
+    border: 0;
+
+}
+
+.bg:hover {
+
+background-color: aliceblue;
+color: black;
+}
+
 @media screen and (max-width: 768px) {
     .showTextBox {
         padding: 15px;
