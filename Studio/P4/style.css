@@ -22,10 +22,6 @@ body {
     border: black 1px solid;
     background: white;
     
-    
-
-   
-    
 }
 
 img {
@@ -76,7 +72,7 @@ textarea{
     color: aliceblue;
 }
 
-#btn,.bg,.reset{
+#btn,.bg,.reset,.reload{
     margin-left: 2%;
     width: 31%;
     height: 50px;
@@ -86,7 +82,7 @@ textarea{
     color: black;
     transition: all 0.3s linear;
     border: 0;
-
+    cursor: pointer;
 }
 
 #btn:hover {
@@ -190,7 +186,7 @@ font-size: 5em;
         position: absolute;
         left: 10px;
         top: -35px;
-        
+        cursor: pointer;
     
 }
 

@@ -23,7 +23,7 @@
     <div class="title">
        
     </div>
-    <img src="./oreo/Untitled-2.png" class="logo2">
+    <img src="./oreo/Untitled-2.png" onclick="replaceDoc()" class="logo2" >
     <div class="text">
         <div class="line1">
             OREO 
@@ -37,6 +37,7 @@
             <button class="reset ">Redo</button>
             <button class="bg" onclick="generate();">Background</button>
             <button id="btn">Save Oreo</button>
+
             
         </div>
     </div>
@@ -277,6 +278,7 @@ rese.onclick = function(){
         var text = document.getElementsByTagName("textarea")[0];
         var box = document.getElementsByClassName("box")[0];
         var logo = document.getElementsByClassName("logo")[0];
+        var reload = document.getElementsByClassName("reload")[0];
             btn.onclick = function(){
                 line1.style.display = "none";
                 line2.style.display = "none";
@@ -285,11 +287,15 @@ rese.onclick = function(){
                 text.style.display = "none";
                 btn.style.display = "none";
                 logo.style.display = "block";
+            
             }
 
 
 
-
+            function replaceDoc()
+{
+    window.location.replace("https://murphybao.github.io/Studio/P4/index.html")
+}
 
         
     </script>
