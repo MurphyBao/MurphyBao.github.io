@@ -26,8 +26,6 @@ a:hover{
     width: 100%;
     cursor: pointer;
     animation: show 2s ;
-   
-
 }
 
 @keyframes show {
